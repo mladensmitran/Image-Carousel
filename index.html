@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image fade">
+        <img src="1.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="2.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="3.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="4.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="5.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="6.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="7.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="8.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="9.jpg" alt="" width="95%" />
+      </div>
+      <div class="image fade">
+        <img src="10.jpg" alt="" width="95%" />
+      </div>
+
+      <i
+        id="prev"
+        onclick="show_image(-1)"
+        class="fa-solid fa-chevron-left"
+      ></i>
+
+      <i
+        id="next"
+        onclick="show_image(1)"
+        class="fa-solid fa-chevron-right"
+      ></i>
+
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
